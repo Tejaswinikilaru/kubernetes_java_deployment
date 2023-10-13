@@ -30,8 +30,8 @@ spec:
         app: productcatalogue
     spec:
       containers:
-      - name: productcatalogue
-        image: praveensingam1994/productcatalogue:latest
+      - name: Productcatalogue
+        image: tejaswinikilaru/productcatalogue:latest
         ports:
         - containerPort: 8020
         livenessProbe:
